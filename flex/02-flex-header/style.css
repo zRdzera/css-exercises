@@ -22,4 +22,25 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.logo {
+  margin: 10px 0 10px auto;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.right-links {
+  margin-left: auto;
 }
