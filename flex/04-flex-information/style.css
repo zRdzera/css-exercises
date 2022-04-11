@@ -14,32 +14,23 @@ img {
 
 /* MODIFICATIONS BELOW */
 body {
-  border: 1px solid red;
+  margin: 0;
+  text-align: center;
 }
 
 .headerSection {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .contentSection {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
+  font-weight: bold;
 }
 
 .section {
-  display: flex;
-  flex-direction: column;
   width: 200px;
-}
-
-.section img {
-  align-self: center;
-}
-
-.section div {
-  text-align: center;
 }
 
 /* do not edit this footer */
