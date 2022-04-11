@@ -26,3 +26,40 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* MODIFICATIONS BELOW */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  padding: 10px;
+  font-size: 34px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;  
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.card {
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
