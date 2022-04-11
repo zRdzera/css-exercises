@@ -76,18 +76,17 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .headerContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 
